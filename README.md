@@ -6,6 +6,7 @@ Snippets which I find useful whilst writing page object oriented protractor test
 - `it('', function() {\n\n});`: itblk⇥
 - `beforeEach('', function() {\n\n});`: beblk⇥
 - `afterEach('', function() {\n\n});`: aeblk⇥
+- `this.thing = function() {\n\n});`: thblk⇥
 
 ### Matchers
 - `expect()`: expect⇥
