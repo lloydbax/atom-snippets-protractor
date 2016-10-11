@@ -10,44 +10,44 @@ Snippets which I find useful whilst writing page object oriented protractor test
 
 ### Matchers
 - `expect()`: expect⇥
-- `.to­Be( null | true | false )`: .tB⇥
-- `.toNot­Be( null | true | false )`: .tNB⇥
-- `.toEqual( value )`: .tE⇥
-- `.toNotEqual( value )`: .tNE⇥
-- `.toMat­ch( regex | string )`: .tM⇥
-- `.toNotMat­ch( regex | string )`: .tNM⇥
-- `.toBe­Def­ine­d()`: .tB­Def­ine­d⇥
-- `.toBe­Und­efi­ned()`: .tB­Und­efi­ned⇥
-- `.toBe­Nul­l()`: .tB­Nul­l⇥
-- `.toBe­Tru­thy()`: .tB­Tru­thy⇥
-- `.toBe­Fal­sy()`: .tB­Fal­sy⇥
-- `.to­Con­tain( string )`: .t­C⇥
-- `.toNot­Con­tain( string )`: .tN­C⇥
-- `.toBe­Les­sTh­an( number )`: .tB­Les­sTh­an⇥
-- `.toBe­Gre­ate­rTh­an( number )`: .tB­Gre­ate­rTh­an⇥
-- `.toBe­NaN( number )`: .tB­NaN⇥
-- `.toBe­Clo­seTo( number, precision )`: .tB­Clo­seTo⇥
-- `.toTh­row()`: .tTh­row⇥
+- `.to­Be( null | true | false )`: tb⇥
+- `.toNot­Be( null | true | false )`: tnb⇥
+- `.toEqual( value )`: te⇥
+- `.toNotEqual( value )`: tne⇥
+- `.toMat­ch( regex | string )`: tm⇥
+- `.toNotMat­ch( regex | string )`: tnm⇥
+- `.toBe­Def­ine­d()`: tbdef­ine­d⇥
+- `.toBe­Und­efi­ned()`: tbund­efi­ned⇥
+- `.toBe­Nul­l()`: tbnul­l⇥
+- `.toBe­Tru­thy()`: tbtru­thy⇥
+- `.toBe­Fal­sy()`: tbfal­sy⇥
+- `.to­Con­tain( string )`: tc⇥
+- `.toNot­Con­tain( string )`: tnc⇥
+- `.toBe­Les­sTh­an( number )`: tbles­sth­an⇥
+- `.toBe­Gre­ate­rTh­an( number )`: tbgre­ate­rth­an⇥
+- `.toBe­NaN( number )`: tbnan⇥
+- `.toBe­Clo­seTo( number, precision )`: tbclo­seto⇥
+- `.toTh­row()`: tthrow⇥
 
 ### WebElement
-- `.clear()`: .clear⇥
-- `.click()`: .click⇥
-- `.getAttribute( value )`: .gAtt⇥
-- `.getCssValue( stylePropertyName )`: .gCValue⇥
-- `.getDriver()`: .gDriver⇥
-- `.getInnerHtml()`: .gIH⇥
-- `.getLocation()`: .gLocation⇥
-- `.getOuterHtml()`: .gOH⇥
-- `.getSize()`: .gSize⇥
-- `.getTagName()`: .gTagName⇥
-- `.getText()`: .gText⇥
-- `.isDisplayed()`: .isDisplayed⇥
-- `.isElementPresent()`: .isElementPresent⇥
-- `.isEnabled()`: .isEnabled⇥
-- `.isSelected()`: .isSelected⇥
-- `.sendKeys()`: .sKeys⇥
-- `.submit()`: .submit⇥
-- `.toWireValue()`: .tWValue⇥
+- `.clear()`: clear⇥
+- `.click()`: click⇥
+- `.getAttribute( value )`: gatt⇥
+- `.getCssValue( stylePropertyName )`: gcvalue⇥
+- `.getDriver()`: gdriver⇥
+- `.getInnerHtml()`: gih⇥
+- `.getLocation()`: glocation⇥
+- `.getOuterHtml()`: goh⇥
+- `.getSize()`: gsize⇥
+- `.getTagName()`: gtagname⇥
+- `.getText()`: gtext⇥
+- `.isDisplayed()`: isdisplayed⇥
+- `.isElementPresent()`: iselementpresent⇥
+- `.isEnabled()`: isenabled⇥
+- `.isSelected()`: isselected⇥
+- `.sendKeys()`: skeys⇥
+- `.submit()`: submit⇥
+- `.toWireValue()`: twvalue⇥
 
 ### Locators
 - `element by.id`: elbi⇥

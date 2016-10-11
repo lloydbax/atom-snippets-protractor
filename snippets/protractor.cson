@@ -43,115 +43,115 @@
     prefix: 'expect'
     body: "expect($1)"
   '.toBe':
-    prefix: '.tB'
+    prefix: 'tb'
     body: ".to­Be(${1:null | true | false})"
   '.toNotBe':
-    prefix: '.tNB'
+    prefix: 'tnb'
     body: ".toNot­Be(${1:null | true | false})"
   '.toEqual':
-    prefix: '.tE'
+    prefix: 'te'
     body: ".toEqual(${1:value})"
   '.toNotEqual':
-    prefix: '.tNE'
+    prefix: 'tne'
     body: ".toNotEqual(${1:value})"
   '.toMat­ch':
-    prefix: '.tM'
+    prefix: 'tm'
     body: ".toMat­ch(${1:regex | string})"
   '.toNotMat­ch':
-    prefix: '.tNM'
+    prefix: 'tnm'
     body: ".toNotMat­ch(${1:regex | string})"
   '.toBe­Def­ine­d':
-    prefix: '.tB­Def­ine­d'
+    prefix: 'tbdef­ine­d'
     body: ".toBe­Def­ine­d()"
   '.toBe­Und­efi­ned':
-    prefix: '.tB­Und­efi­ned'
+    prefix: 'tbund­efi­ned'
     body: ".toBe­Und­efi­ned()"
   '.toBe­Nul­l':
-    prefix: '.tB­Nul­l'
+    prefix: 'tbnul­l'
     body: ".toBe­Nul­l()"
   '.toBe­Tru­thy':
-    prefix: '.tB­Tru­thy'
+    prefix: 'tbtru­thy'
     body: ".toBe­Tru­thy()"
   '.toBe­Fal­sy':
-    prefix: '.tB­Fal­sy'
+    prefix: 'tbfal­sy'
     body: ".toBe­Fal­sy()"
   '.to­Con­tain':
-    prefix: '.t­C'
+    prefix: 'tc'
     body: ".to­Con­tain(${1:string})"
   '.toNot­Con­tain':
-    prefix: '.tN­C'
+    prefix: 'tnc'
     body: ".toNot­Con­tain(${1:string})"
   '.toBe­Les­sTh­an':
-    prefix: '.tB­Les­sTh­an'
+    prefix: 'tbles­sth­an'
     body: ".toBe­Les­sTh­an(${1:number})"
   '.toBe­Gre­ate­rTh­an':
-    prefix: '.tB­Gre­ate­rTh­an'
+    prefix: 'tbgre­ate­rth­an'
     body: ".toBe­Gre­ate­rTh­an(${1:number})"
   '.toBe­NaN':
-    prefix: '.tB­NaN'
+    prefix: 'tbnan'
     body: ".toBe­NaN($1{number})"
   '.toBe­Clo­seTo':
-    prefix: '.tB­Clo­seTo'
+    prefix: 'tbclo­seto'
     body: ".toBe­Clo­seTo(${1:number},${2:precision})"
   '.toTh­row':
-    prefix: '.tTh­row'
+    prefix: 'tth­row'
     body: ".toTh­row()"
 
 # WebElement
 
   '.clear':
-    prefix: '.clear'
+    prefix: 'clear'
     body: ".clear()"
   '.click':
-    prefix: '.click'
+    prefix: 'click'
     body: ".click()"
   '.getAttribute':
-    prefix: '.gAtt'
+    prefix: 'gatt'
     body: ".getAttribute(${1:value})"
   '.getCssValue':
-    prefix: '.gCValue'
+    prefix: 'gcvalue'
     body: ".getCssValue(${1:stylePropertyName})"
   '.getDriver':
-    prefix: '.gDriver'
+    prefix: 'gdriver'
     body: ".getDriver()"
   '.getInnerHtml':
-    prefix: '.gIH'
+    prefix: 'gih'
     body: ".getInnerHtml()"
   '.getLocation':
-    prefix: '.gLocation'
+    prefix: 'glocation'
     body: ".getLocation()"
   '.getOuterHtml':
-    prefix: '.gOH'
+    prefix: 'goh'
     body: ".getOuterHtml()"
   '.getSize':
-    prefix: '.gSize'
+    prefix: 'gsize'
     body: ".getSize()"
   '.getTagName':
-    prefix: '.gTagName'
+    prefix: 'gtagname'
     body: ".getTagName()"
   '.getText':
-    prefix: '.gText'
+    prefix: 'gtext'
     body: ".getText()"
   '.isDisplayed':
-    prefix: '.isDisplayed'
+    prefix: 'isdisplayed'
     body: ".isDisplayed()"
   '.isElementPresent':
-    prefix: '.isElementPresent'
+    prefix: 'iselementpresent'
     body: ".isElementPresent()"
   '.isEnabled':
-    prefix: '.isEnabled'
+    prefix: 'isenabled'
     body: ".isEnabled()"
   '.isSelected':
-    prefix: '.isSelected'
+    prefix: 'isselected'
     body: ".isSelected()"
   '.sendKeys':
-    prefix: '.sKeys'
+    prefix: 'skeys'
     body: ".sendKeys($1)"
   '.submit':
-    prefix: '.submit'
+    prefix: 'submit'
     body: ".submit()"
   '.toWireValue':
-    prefix: '.tWValue'
+    prefix: 'twvalue'
     body: ".toWireValue()"
 
 # Locators
