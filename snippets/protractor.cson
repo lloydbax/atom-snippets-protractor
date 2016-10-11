@@ -4,19 +4,39 @@ Jasmine
 ###
   'Describe Block':
     prefix: 'descblk'
-    body:   "describe('', function() {\n$1\n});"
+    body:   """
+    describe('${1:blah}', function() {
+      $2
+    });
+    """
   'It Block':
     prefix: 'itblk'
-    body:   "it('', function() {\n$1\n});"
+    body:   """
+    it('should ${1:blah}', function() {
+      $2
+    });
+    """
   'Before Each Block':
     prefix: 'beblk'
-    body:   "beforeEach('', function() {\n$1\n});"
+    body:   """
+    beforeEach(function() {
+      $1
+    });
+    """
   'After Each Block':
     prefix: 'aeblk'
-    body:   "afterEach('', function() {\n$1\n});"
+    body:   """
+    afterEach(function() {
+      $1
+    });
+    """
   'This Block'
     prefix: 'thblk'
-    body: "    this.${1:thing} = function() {\n$2\n};"
+    body: """
+    this.${1:thing} = function() {
+      $2
+    };
+    """
 ###
 Matchers
 ###
