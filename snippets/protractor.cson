@@ -6,35 +6,35 @@
     prefix: 'descblk'
     body: """
       describe('${1:blah}', function() {
-      $2
+        $2
       });
       """
   'It Block':
     prefix: 'itblk'
     body: """
       it('should ${1:blah}', function() {
-      $2
+        $2
       });
       """
   'Before Each Block':
     prefix: 'beblk'
     body: """
       beforeEach(function() {
-      $1
+        $1
       });
       """
   'After Each Block':
     prefix: 'aeblk'
     body: """
       afterEach(function() {
-      $1
+        $1
       });
       """
   'This Block':
     prefix: 'thblk'
     body: """
       this.${1:thing} = function() {
-      $2
+        $2
       };
       """
 # Matchers
