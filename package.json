@@ -1,16 +1,20 @@
 {
   "name": "atom-snippets-protractor",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Snippets which I find useful whilst writing protractor tests",
-  "engines": {
-    "atom": "*"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/lloydbax/atom-snippets-protractor"
+    "url": "git+https://github.com/lloydbax/atom-snippets-protractor"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/lloydbax/atom-snippets-protractor/issues"
   },
+  "homepage": "https://github.com/lloydbax/atom-snippets-protractor#readme"
 }
